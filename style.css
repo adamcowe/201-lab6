@@ -1,0 +1,13 @@
+body {
+    background: rgb(175, 162, 162);
+  }
+  header {
+     color: rgb(39, 36, 35);
+     font-family: Arial;
+     font-size: 12px;
+  }
+  h1 {
+    color: rgb(94, 224, 34);
+    font-family: Arial;
+    font-size: 14px;
+  }
