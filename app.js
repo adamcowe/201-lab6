@@ -34,12 +34,12 @@ var pikesPlace = {
     }
   }
 };
-console.log(hours);
-console.log(pikesPlace);
-console.log(pikesPlace.creatRandomCustCount());
-console.log(pikesPlace.cooksPerDay());
-console.log(pikesPlace.createReport());
-console.log(pikesPlace.dayTotal());
+//console.log(hours);
+//console.log(pikesPlace);
+//pikesPlace.creatRandomCustCount();
+pikesPlace.cooksPerDay();
+pikesPlace.createReport();
+pikesPlace.dayTotal();
 
 var seatac = {
   name: 'Sea Tac Airport',
@@ -74,16 +74,16 @@ var seatac = {
     }
   }
 };
-console.log(hours);
-console.log(seatac);
-console.log(seatac.creatRandomCustCount());
-console.log(seatac.cooksPerDay());
-console.log(seatac.createReport());
-console.log(seatac.dayTotal());
+//console.log(hours);
+//console.log(seatac);
+//seatac.creatRandomCustCount();
+seatac.cooksPerDay();
+seatac.createReport();
+seatac.dayTotal();
 
 var seattlecenter = {
-  name: 'Sea Tac Airport',
-  address: '1234 Airport Way',
+  name: 'Seattle Center',
+  address: '1234 Center Way',
   emptyArray2:[],
   creatRandomCustCount: function(min, max) {
     min = parseInt(seattlecenter.minCust);
@@ -114,16 +114,17 @@ var seattlecenter = {
     }
   }
 };
-console.log(hours);
-console.log(seattlecenter);
-console.log(seattlecenter.creatRandomCustCount());
-console.log(seattlecenter.cooksPerDay());
-console.log(seattlecenter.createReport());
-console.log(seattlecenter.dayTotal());
+
+//console.log(hours);
+//console.log(seattlecenter);
+//seattlecenter.creatRandomCustCount();
+seattlecenter.cooksPerDay();
+seattlecenter.createReport();
+seattlecenter.dayTotal();
 
 var caphill = {
-  name: 'Sea Tac Airport',
-  address: '1234 Airport Way',
+  name: 'Capitol Hill',
+  address: '1234 Capitol Way',
   emptyArray2:[],
   creatRandomCustCount: function(min, max) {
     min = parseInt(caphill.minCust);
@@ -154,12 +155,12 @@ var caphill = {
     }
   }
 };
-console.log(hours);
-console.log(caphill);
-console.log(caphill.creatRandomCustCount());
-console.log(caphill.cooksPerDay());
-console.log(caphill.createReport());
-console.log(caphill.dayTotal());
+//console.log(hours);
+//console.log(caphill);
+//caphill.creatRandomCustCount();
+caphill.cooksPerDay();
+caphill.createReport();
+caphill.dayTotal();
 
 var alki = {
   name: 'Alki',
@@ -194,10 +195,9 @@ var alki = {
     }
   }
 };
-console.log(hours);
-console.log(alki);
-console.log(alki.creatRandomCustCount());
-console.log(alki.cooksPerDay());
-console.log(alki.createReport());
-console.log(alki.dayTotal());
-
+//console.log(hours);
+//console.log(alki);
+//alki.creatRandomCustCount();
+alki.cooksPerDay();
+alki.createReport();
+alki.dayTotal();
