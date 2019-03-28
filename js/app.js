@@ -118,3 +118,4 @@ function renderTable() {
   buildFooter();
 }
 renderTable();
+
