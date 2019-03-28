@@ -119,3 +119,33 @@ function renderTable() {
 }
 renderTable();
 
+//form exeercise for lab8
+
+var addStore = document.getElementById('add-store');
+
+function buildStore(locationTarget){
+  locationTarget.preventDefault();
+  var loc = locationTarget.target.locName.value;
+  //why are we using parseInt? force number, not needed, HTML will handle forced nums
+  var min = locationTarget.target.min.value;
+  var max = locationTarget.target.max.value;
+  //why parseFloat? forces number if string is there, don't need this really as only nums are allowed in HTML
+  var avg = locationTarget.target.avg.value;
+
+  var newStoreData = new Stores(loc, min, max, avg);
+
+  //check for nulls on min, test
+
+  if (min === isNaN) {
+    console.log('FAIL');
+  }
+
+  locationTarget.target.locName.value = null;
+  locationTarget.target.min.value = null;
+  locationTarget.target.max.value = null;
+  locationTarget.target.avg.value = null;
+
+  renderTable();
+}
+
+addStore.addEventListener('submit', buildStore);
