@@ -5,6 +5,31 @@
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
 </head>
+<form id="add-store">
+  <div>
+    <legend>Add all values for a new store and click the thing that does the thing</legend>
+
+    <label for="locName">Store Name</label>
+    <input name="locName" type="text" id="locName"></input>
+
+    <label for="min">Min Custs per Hour</label>
+    <input name="min" type="number" id="min"></input>
+
+    <label for="max">Max Cust per Hour</label>
+    <input name="max" type="number" id="max"></input>
+
+    <!--label for="avg">Avg Cooks per Sale</label>
+    <input name="avg" type="number" id="avg"></input>
+    
+    **using nesting input inside the label below**
+    -->
+
+    <label>Avg Cooks per Sale
+         <input type="number" name="avg">
+    </label>
+
+    <button type="submit">Do the Thing!</button>
+  </div>
 <body>
     <header>
     <h1>Salmon Cookies Internal Page</h1>

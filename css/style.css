@@ -50,7 +50,7 @@ header nav li {
 
 .left {
   float: left;
-  margin-right: 40px;
+  margin-right: 35px;
   margin-bottom: 15px;
 }
 
@@ -66,16 +66,6 @@ header nav li {
   overflow: auto;
 }
 
-.right button {
-  border: none;
-  padding: 5px 10px;
-  background: #000;
-  color: white;
-  padding: 10px;
-  margin-top: 5px;
-
-}
-
 footer {
   background: #555;
   height: 150px;
@@ -88,4 +78,23 @@ main {
 
 .fish {
   width: 960px
+}
+
+legend {
+  font-family: Montserrat;
+  background: rgb(150, 145, 145);
+  color: rgb(236, 186, 22);
+  font-size: 14px;
+}
+button {
+  border: none;
+  color: rgb(112, 90, 214);
+  padding: 5px 25px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: rgb(27, 228, 104);
+  color: rgb(31, 26, 16);
 }
