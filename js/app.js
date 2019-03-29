@@ -1,7 +1,5 @@
 'use strict';
-//lab6, lab7 build objects for salmon cookies locations//
 
-'use strict';
 //lab6, build objects for salmon cookies locations//
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'];
 var salesData = document.getElementById('sales-data');
@@ -149,3 +147,11 @@ function buildStore(locationTarget){
 }
 
 addStore.addEventListener('submit', buildStore);
+
+//animation attempt
+
+/*function animate() {
+  var animation = document.getElementById('animate');
+}
+animate();
+*/
