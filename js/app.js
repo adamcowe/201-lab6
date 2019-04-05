@@ -134,6 +134,20 @@ function buildStore(locationTarget){
 
   //check for nulls on min, test
 
+
+  function makeItMove() {
+    var frames = 3;
+    var frameCount = frames.length;
+    var i = 0;
+    setInterval(function () {
+      frames[i % frameCount].style.display = 'none';
+      frames[++i % frameCount].style.display = 'block';
+    }, 5);
+    console.log('yup')
+  }
+
+  makeItMove();
+
   if (min === isNaN) {
     console.log('FAIL');
   }
@@ -155,3 +169,4 @@ addStore.addEventListener('submit', buildStore);
 }
 animate();
 */
+
